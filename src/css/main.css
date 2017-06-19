@@ -334,6 +334,7 @@ color:#fff;
 #info p{
   margin-top:0px;
   font-size:1.2rem;
+  line-height:25px;
 }
 #button{
 display:flex;
@@ -414,6 +415,7 @@ left:46%;
   border: 2px solid #bdc3c7;
   flex-basis:22%;
   text-align:center;
+  height:193px;
 }
 #numbers h2{
   font-size: 3rem;
