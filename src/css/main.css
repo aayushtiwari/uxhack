@@ -128,6 +128,9 @@ canvas {
    padding-bottom:22px;
    font-weight:bold;
 }
+#intro span{
+  color:#3498db;
+}
 #intro{
   width:80%;
   top:43%;
