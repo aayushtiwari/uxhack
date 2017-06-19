@@ -106,7 +106,7 @@ color:#2980b9;
 }
 #nav div:nth-child(4) a:hover{
 background-color:transparent;
-color:#8e44ad
+color:#8e44ad;
 }
 body {
   margin: 0;
@@ -121,16 +121,16 @@ canvas {
 #intro h1{
    font-family:'Raleway', sans-serif;
    font-size:5em;
-   color:#263238;
+   color:#252526;
    letter-spacing:1px;
-   line-height:70px;
+   line-height:75px;
    margin:0px;
    padding-bottom:22px;
    font-weight:bold;
 }
 #intro{
   width:80%;
-  top:30%;
+  top:47%;
   left:14%;
   display:inline-block;
   position: absolute;
@@ -215,17 +215,29 @@ background-color:#fff;
 }
 #tweaks{
   display:flex;
-  top:110%;
-  justify-content:space-around;
+  top:120%;
   margin-bottom:8%;
   flex-wrap:wrap;
+  justify-content:space-around;
 }
 #con,#ui,#feat,#prod{
-flex-basis:40%;
+flex-basis:24%;
 margin-bottom:8%;
 display:flex;
-font-family:lato;
+font-family:ubuntu;
 cursor:pointer;
+}
+#con{
+  background-color:#1abc9c;
+}
+#ui{
+  background-color:#3498db;
+}
+#feat{
+  background-color:#f1c40f;
+}
+#prod{
+  background-color: #e74c3c;
 }
 #tweaks .name{
   position:absolute;
@@ -238,14 +250,14 @@ cursor:pointer;
   flex-wrap: wrap;
 }
 #tweaks .name h2{
-font-size: 5em;
-color:#2c3e50;
+font-size: 3.3em;
+color:#fff;
 flex-basis:100%;
 text-align:center;
 }
 #tweaks .name img{
-width:100px;
-margin-top:-131px;
+width:75px;
+margin-top:-151px;
 }
 .detail{
  visibility: hidden;
@@ -253,18 +265,21 @@ margin-top:-131px;
  text-align: center;
  width:100%;
  transition-timing-function:ease;
+ align-items:center;
  }
 .detail h3{
-font-size: 2.3em;
-padding:10px;
-border-bottom:2px solid  #515152;
-border-top:2px solid  #515152;
+font-size: 2.1em;
 vertical-align:middle;
+margin-bottom:12px;
+margin-top: 12px;
+color:#fff;
 }
 .detail p{
 font-size: 1.5em;
-padding-top:5px;
-padding-bottom:13px;
+line-height:25px;
+margin-bottom:10px;
+margin-top:10px;
+color:#fff;
 }
 #prod:hover>.detail{
   visibility:visible;

@@ -3,7 +3,7 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 50,
+        "value": 60,
         "density": {
           "enable": true,
           "value_area": 1200
@@ -118,3 +118,8 @@ document.addEventListener("DOMContentLoaded", function(){
       backDelay:500
     });
   });
+window.sr=ScrollReveal({reset:true});
+sr.reveal('#con',{duration:2000});
+sr.reveal('#ui',{duration:2000});
+sr.reveal('#feat',{duration:2000});
+sr.reveal('#prod',{duration:2000});
