@@ -130,12 +130,12 @@ canvas {
 }
 #intro{
   width:80%;
-  top:47%;
+  top:43%;
   left:14%;
   display:inline-block;
-  position: absolute;
+  position:absolute;
 }
-span{
+#nav span{
     color:#2980b9;
    font-family:'Raleway', sans-serif;
 }
@@ -179,9 +179,9 @@ color:#515152;
   font-size: 1.6em;
 }
 #optionc{
-  position: relative;
+  position:absolute;
   width:100%;
-  top:90%;
+  top:102%;
   background-color: #515152;
   height:120px;
   display:flex;
@@ -214,9 +214,9 @@ color:#515152;
 background-color:#fff;
 }
 #tweaks{
+  position:absolute;
   display:flex;
-  top:120%;
-  margin-bottom:8%;
+  top:150%;
   flex-wrap:wrap;
   justify-content:space-around;
 }
@@ -305,6 +305,123 @@ color:#fff;
 #feat:hover>.name{
   visibility:hidden;
 }
+#template{
+  top:230%;
+  display:flex;
+  justify-content:space-around;
+  font-family:raleway;
+  position:absolute;
+}
+#template #info{
+  padding:10px;
+  padding-left:7%;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+}
+#opt{
+  padding:5px;
+  padding-left: 10px;
+}
+#info h3{
+  margin-top:40px;
+  margin-bottom:0px;
+  font-size: 2rem;
+}
+#info p{
+  margin-top:0px;
+  font-size:1.2rem;
+}
+#button{
+display:flex;
+flex-wrap:wrap;
+}
+#button span{
+  display:flex;
+  justify-content:center;
+  flex-basis:100%;
+  padding:5px;
+}
+#opt p{
+  margin-left:150px;
+  font-size:1rem;
+}
+#button button {
+font-size:1.3rem;
+padding:7px;
+padding-left:15px;
+padding-right:15px;
+color:#fff;
+background-color:#2ecc71;
+border:none; 
+font-weight:bold;
+border-radius:3px;
+cursor:pointer;
+}
+#button button:hover{
+  background-color:#27ae60;
+}
+#stats{
+  top:280%;
+  display:flex;
+  flex-wrap:wrap;
+  background: linear-gradient(to right,#5C258D,#4389A2);
+  color:#fff;
+  font-family:raleway;
+}
+#head,#numbers{
+  flex-basis:90%;
+  justify-content:center;
+  padding-left:5%;
+  padding-right:5%;
+  padding-top:20px;
+}
+#head{
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+#head h2,#head h4{
+  flex-basis:100%;
+  text-align: center;
+}
+#head h2{
+  font-size:2.5rem;
+  letter-spacing:2px;
+}
+#head h4{
+font-size: 1.2rem;
+letter-spacing:2px;
+}
+#head span{
+background-color:white;
+width:100px;
+height:5px;
+position:absolute;
+bottom:-15px;
+left:46%;
+}
+#numbers{
+  padding-top:50px;
+  display:flex;
+  justify-content:space-around;
+  padding-bottom:100px;
+}
+#numbers div{
+  border: 2px solid #bdc3c7;
+  flex-basis:22%;
+  text-align:center;
+}
+#numbers h2{
+  font-size: 3rem;
+  letter-spacing:2px;
+}
+#numbers p{
+  font-size: 1.5rem;
+  letter-spacing:2px;
+  font-weight:500;
+}
+
 
 
 

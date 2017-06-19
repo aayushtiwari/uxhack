@@ -118,8 +118,49 @@ document.addEventListener("DOMContentLoaded", function(){
       backDelay:500
     });
   });
-window.sr=ScrollReveal({reset:true});
+window.sr=ScrollReveal({reset:true ,origin:'bottom',viewFactor: 0.3});
+window.sk=ScrollReveal({reset:true ,origin:'bottom',viewFactor: 0.3,afterReveal:
+  function(){
+$(function(){
+
+    // container is the DOM element;
+    // userText is the textbox
+
+    var container = $('#numbers h2,#numbers p')
+        userText = $('#userText'); 
+
+    // Shuffle the contents of container
+    container.shuffleLetters();
+
+    // Bind events
+    userText.click(function () {
+
+      userText.val("");
+
+    }).bind('keypress',function(e){
+
+        if(e.keyCode == 13){
+
+            // The return key was pressed
+
+            container.shuffleLetters({
+                "text": userText.val()
+            });
+
+            userText.val("");
+        }
+
+    }).hide();
+
+});}
+
+});
 sr.reveal('#con',{duration:2000});
 sr.reveal('#ui',{duration:2000});
 sr.reveal('#feat',{duration:2000});
 sr.reveal('#prod',{duration:2000});
+sr.reveal('#opt',{duration:2000});
+sr.reveal('#info',{duration:2000});
+sk.reveal('#numbers',{duration:1000});
+
+
