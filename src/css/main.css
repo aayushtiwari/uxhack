@@ -185,7 +185,7 @@ color:#515152;
   position:absolute;
   width:100%;
   top:102%;
-  background-color: #515152;
+  background-color:#515152;
   height:120px;
   display:flex;
   justify-content:center;
@@ -202,7 +202,7 @@ color:#515152;
   padding-right:13px;
    padding-left:13px;
 font-size: 1.4em;
-background-color:#515152;
+background-color:#515152; 
 color:#fff;
 font-family:ubuntu;
 border-radius:8px;
@@ -217,31 +217,19 @@ color:#515152;
 background-color:#fff;
 }
 #tweaks{
-  position:absolute;
   display:flex;
-  top:150%;
   flex-wrap:wrap;
   justify-content:space-around;
 }
 #con,#ui,#feat,#prod{
 flex-basis:24%;
-margin-bottom:8%;
 display:flex;
 font-family:ubuntu;
 cursor:pointer;
+border-radius:7px;
+align-items:center;
 }
-#con{
-  background-color:#1abc9c;
-}
-#ui{
-  background-color:#3498db;
-}
-#feat{
-  background-color:#f1c40f;
-}
-#prod{
-  background-color: #e74c3c;
-}
+
 #tweaks .name{
   position:absolute;
   width:100%;
@@ -252,15 +240,33 @@ cursor:pointer;
   transition-timing-function:ease ;
   flex-wrap: wrap;
 }
+#headt{
+  display:flex;
+  width:100%;
+  justify-content:center;
+  margin-bottom:0px;
+}
+#headt h1{
+  text-align:center;
+  font-size:3rem;
+  border-bottom:4px solid white;
+  letter-spacing:3px;
+  padding:10px;
+  padding-right:15px;
+  padding-left:15px;
+  font-family: ubuntu ;
+  margin-bottom:50px;
+}
 #tweaks .name h2{
-font-size: 3.3em;
+font-size: 2rem;
 color:#fff;
 flex-basis:100%;
 text-align:center;
+letter-spacing:2px;
 }
 #tweaks .name img{
 width:75px;
-margin-top:-151px;
+margin-top:-161px;
 }
 .detail{
  visibility: hidden;
@@ -309,7 +315,7 @@ color:#fff;
   visibility:hidden;
 }
 #template{
-  top:230%;
+  top:150%;
   display:flex;
   justify-content:space-around;
   font-family:raleway;
@@ -352,7 +358,7 @@ flex-wrap:wrap;
 }
 #button button {
 font-size:1.3rem;
-padding:7px;
+padding:10px;
 padding-left:15px;
 padding-right:15px;
 color:#fff;
@@ -361,17 +367,19 @@ border:none;
 font-weight:bold;
 border-radius:3px;
 cursor:pointer;
+margin-bottom:8px;
 }
 #button button:hover{
   background-color:#27ae60;
 }
 #stats{
-  top:280%;
+  top:220%;
   display:flex;
   flex-wrap:wrap;
   background: linear-gradient(to right,#5C258D,#4389A2);
   color:#fff;
   font-family:raleway;
+  position:absolute;
 }
 #head,#numbers{
   flex-basis:90%;
