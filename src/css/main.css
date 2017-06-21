@@ -1,6 +1,5 @@
 *{
   z-index:2;
-  position:relative;
 }
 nav{
   display: -webkit-flex;
@@ -133,7 +132,7 @@ canvas {
 }
 #intro{
   width:80%;
-  top:43%;
+  top:43vh;
   left:14%;
   display:inline-block;
   position:absolute;
@@ -184,7 +183,7 @@ color:#515152;
 #optionc{
   position:absolute;
   width:100%;
-  top:102%;
+  top:102vh;
   background-color:#515152;
   height:120px;
   display:flex;
@@ -228,15 +227,16 @@ font-family:ubuntu;
 cursor:pointer;
 border-radius:7px;
 align-items:center;
+justify-content:center;
 }
 
 #tweaks .name{
   position:absolute;
-  width:100%;
+  max-width:100%;
   display:flex;
   justify-content:center;
   align-items:center;
-  height:100%;
+  max-height:100%;
   transition-timing-function:ease ;
   flex-wrap: wrap;
 }
@@ -246,6 +246,7 @@ align-items:center;
   justify-content:center;
   margin-bottom:0px;
 }
+
 #headt h1{
   text-align:center;
   font-size:3rem;
@@ -266,7 +267,6 @@ letter-spacing:2px;
 }
 #tweaks .name img{
 width:75px;
-margin-top:-161px;
 }
 .detail{
  visibility: hidden;
@@ -290,6 +290,7 @@ margin-bottom:10px;
 margin-top:10px;
 color:#fff;
 }
+
 #prod:hover>.detail{
   visibility:visible;
 }
@@ -315,7 +316,7 @@ color:#fff;
   visibility:hidden;
 }
 #template{
-  top:150%;
+  top:150vh;
   display:flex;
   justify-content:space-around;
   font-family:raleway;
@@ -373,7 +374,7 @@ margin-bottom:8px;
   background-color:#27ae60;
 }
 #stats{
-  top:220%;
+  top:306vh;
   display:flex;
   flex-wrap:wrap;
   background: linear-gradient(to right,#5C258D,#4389A2);
@@ -391,27 +392,28 @@ margin-bottom:8px;
 #head{
   display:flex;
   justify-content:center;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
 }
 #head h2,#head h4{
-  flex-basis:100%;
   text-align: center;
 }
 #head h2{
   font-size:2.5rem;
   letter-spacing:2px;
+  display:flex;
+  justify-content:center;
 }
 #head h4{
 font-size: 1.2rem;
 letter-spacing:2px;
+margin-top:0px;
 }
 #head span{
-background-color:white;
+background-color:#fff;
 width:100px;
 height:5px;
 position:absolute;
-bottom:-15px;
-left:46%;
+margin-top: 52px;
 }
 #numbers{
   padding-top:50px;
@@ -428,15 +430,126 @@ left:46%;
 #numbers h2{
   font-size: 3rem;
   letter-spacing:2px;
+  visibility:hidden;
 }
 #numbers p{
   font-size: 1.5rem;
   letter-spacing:2px;
   font-weight:500;
+  visibility:hidden;
+}
+#steps {
+position:absolute;
+top:230vh;
+width:90%;
+margin-left:5%;
+margin-right:5%;
+display:flex;
+justify-content:space-between;
+font-family:ubuntu;
+}
+#steps .stepn{
+flex-basis:22%;
+}
+#steps .imgs{
+  display:flex;
+  justify-content:center;
+}
+#steps img{
+  width:150px;
+}
+#steps .stepin{
+padding:5px;
+display:flex;
+flex-wrap:wrap;
+}
+#steps .stepin h3{
+  font-size: 1.35rem;
+  letter-spacing:1px;
+  color:#e67e22;
+  text-align:center;
+  flex-basis:100%;
+  margin-bottom: 0;
+}
+#steps .stepin h4{
+font-size:1.1rem;
+line-height:20px;
+letter-spacing:1px;
+text-align:center;
+font-family: lato;
+margin-top:10px;
+color:#526061;
 }
 
+#stats #social{
+display:flex;
+width:90%;
+margin-left:5%;
+justify-content:space-between;
+flex-wrap:wrap;
+font-family:ubuntu;
+}
 
-
+#social .blocks{
+background-color:#fff;
+flex-basis:30%;
+border-radius:4px;
+margin-bottom:50px;
+border:2px solid #696773;
+padding:10px;
+}
+.social{
+  flex-basis:100%;
+  display:flex;
+  justify-content:center;
+}
+.social h2{
+  font-size:3rem;
+  letter-spacing:1px;
+  margin-bottom:100px;
+  font-family:ubuntu;
+  color:#fff;
+  padding-top:15px; 
+  padding-bottom:8px;
+  padding-left:30px; 
+  padding-right:30px;
+  border-radius:3px;
+  border-bottom:5px solid #fff;
+}
+.person img:nth-child(1){
+  width:50px;
+}
+.person img:nth-child(2){
+  width:10px;
+}
+#social .person{
+display:flex;
+justify-content:space-around;
+}
+#social .personin h3{
+  color:#1D1E24;
+  letter-spacing:1.3px;
+  font-size: 1.3rem;
+  font-weight:bold;
+  margin-bottom:0px;
+}
+#social .personin h4{
+  margin-top:5px;
+  color:#9f9ea5;
+  letter-spacing:2px;
+  font-size: 1rem;
+}
+#social .personmes h3{
+  color:#2d2f3a;
+  font-size:1.3rem;
+  font-weight:normal;
+  letter-spacing:2px;
+  margin-top:0px;
+}
+#social .personmes{
+  padding-left:5%;
+  padding-right:5%;
+}
 
 
 
