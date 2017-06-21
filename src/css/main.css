@@ -1,5 +1,6 @@
 *{
   z-index:2;
+  outline:none;
 }
 nav{
   display: -webkit-flex;
@@ -55,7 +56,7 @@ flex-wrap:wrap;
 #nav a{
   text-align:center;
   display:inline-block;
-  font-size:1.4em;
+  font-size:1.2rem;
   font-family:'Raleway', sans-serif;
   font-weight:bold;
   letter-spacing:2px;
@@ -402,7 +403,8 @@ margin-bottom:8px;
   font-size:2.5rem;
   letter-spacing:2px;
   display:flex;
-  justify-content:center;
+  padding-bottom:5px;
+  border-bottom:3px solid #fff;
 }
 #head h4{
   margin-top:60px;
@@ -410,12 +412,10 @@ font-size:1.2rem;
 letter-spacing:2px;
 margin-top:0px;
 }
-#head span{
-background-color:#fff;
-width:100px;
-height:5px;
-position:absolute;
-margin-top: 56px;
+#head div{
+  display:flex;
+  width:100%;
+  justify-content: center;
 }
 #numbers{
   padding-top:50px;
@@ -432,13 +432,11 @@ margin-top: 56px;
 #numbers h2{
   font-size: 3rem;
   letter-spacing:2px;
-  visibility:hidden;
 }
 #numbers p{
   font-size: 1.5rem;
   letter-spacing:2px;
   font-weight:500;
-  visibility:hidden;
 }
 #steps {
 position:absolute;
@@ -459,6 +457,7 @@ flex-basis:22%;
 }
 #steps img{
   width:150px;
+  height:150px;
 }
 #steps .stepin{
 padding:5px;
@@ -549,6 +548,8 @@ justify-content:space-around;
   font-weight:normal;
   letter-spacing:2px;
   margin-top:0px;
+  text-align: center;
+  line-height:27px;
 }
 #social .personmes{
   padding-left:5%;
