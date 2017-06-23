@@ -37,7 +37,7 @@ height: 100%;
   margin-right:2%;
 }
 #logo img{
- width:170px;
+ width:200px;
 }
 #logo a{
   padding-left:23%;
@@ -89,7 +89,6 @@ flex-wrap:wrap;
   color:#fff;
   border-radius:8px;
   border:2px solid #2980b9;
-  font-weight:bold;
 }
 #nav div:nth-child(4) a{
   background-color:#8e44ad;
@@ -99,7 +98,6 @@ flex-wrap:wrap;
   color:#f8f8ff;
   border-radius:8px;
   border:2px solid #8e44ad;
-  font-weight:bold;
 }
 #nav div:nth-child(3) a:hover{
 background-color:transparent;
@@ -145,7 +143,7 @@ padding-left:3%;
 }
 #intro #images{
   width:50%;
-  margin-top:-18vh;
+  margin-top:-12vh;
   padding-left:10%;
 }
 #intro #images img{
@@ -154,27 +152,28 @@ position:absolute;
 }
 #intro #images img:nth-child(1){
 margin-left:100px;
-width:300px;
+width:200px;
 border:9px solid #E4E7E8;
 animation:updown1 3s ease infinite alternate;
 }
 #intro #images img:nth-child(2){
-margin-top:220px;
-margin-left:350px;
-width:200px;
+margin-top:200px;
+margin-left:248px;
+width:140px;
 border:12px solid #E4E7E8;
 animation:updown2 3s ease infinite alternate;
 }
 #intro #images img:nth-child(3){
-  margin-left:450px;
-  width:100px;
+  margin-left:342px;
+  margin-top:50px;
+  width:80px;
   border:15px solid #E4E7E8;
   animation:updown3 3s ease infinite alternate;
 }
 #intro #images img:nth-child(4){
-  margin-top:260px;
+  margin-top:200px;
   border:13px solid #E4E7E8;
-  width:180px;
+  width:130px;
   animation:updown4 3s ease infinite alternate;
 }
 @keyframes updown1{
@@ -289,9 +288,11 @@ color:#515152;
 background-color:#fff;
 }
 #tweaks{
+  margin-top:20px;
   display:flex;
   flex-wrap:wrap;
   justify-content:space-around;
+  margin-bottom:20px;
 }
 #con,#ui,#feat,#prod{
 flex-basis:24%;
@@ -317,7 +318,7 @@ justify-content:center;
   display:flex;
   width:100%;
   justify-content:center;
-  margin-bottom:0px;
+  margin-bottom:20px;
 }
 
 #headt h1{
@@ -447,7 +448,7 @@ margin-bottom:8px;
   background-color:#27ae60;
 }
 #stats{
-  top:306vh;
+  top:310vh;
   display:flex;
   flex-wrap:wrap;
   background: linear-gradient(to right,#5C258D,#4389A2);
