@@ -118,14 +118,14 @@ canvas {
 }
 
 #intro h1{
-   font-family:'Raleway', sans-serif;
-   font-size:3.3rem;
-   color:#252526;
+   font-family:raleway;
+   font-size:3rem;
+   color:#342e37;
    letter-spacing:1px;
    line-height:68px;
    margin:0px;
    padding-bottom:22px;
-   font-weight:bold;
+   font-weight:600;
 }
 #intro #det{
 width:50%;
@@ -136,13 +136,13 @@ padding-left:3%;
 }
 #intro{
   width:90%;
-  top:40vh;
+  top:38vh;
   display:flex;
   position:absolute;
   margin-left:5%;
 }
 #intro #images{
-  width:50%;
+  width:40%;
   margin-top:-12vh;
   padding-left:10%;
 }
@@ -154,34 +154,63 @@ position:absolute;
 margin-left:100px;
 width:200px;
 border:9px solid #E4E7E8;
-animation:updown1 3s ease infinite alternate;
+animation:updown1 5s ease infinite alternate;
 }
 #intro #images img:nth-child(2){
 margin-top:200px;
 margin-left:248px;
 width:140px;
 border:12px solid #E4E7E8;
-animation:updown2 3s ease infinite alternate;
+animation:updown2 5s ease infinite alternate;
+}
+#intro #images p{
+  font-family:raleway;
+  font-size:1rem;
+  color:#342e37;
+  letter-spacing:3px;
+  display:inline-block;
+  position: absolute;
+  line-height:20px;
 }
 #intro #images img:nth-child(3){
   margin-left:342px;
   margin-top:50px;
   width:80px;
   border:15px solid #E4E7E8;
-  animation:updown3 3s ease infinite alternate;
+  animation:updown3 5s ease infinite alternate;
 }
 #intro #images img:nth-child(4){
   margin-top:200px;
   border:13px solid #E4E7E8;
   width:130px;
-  animation:updown4 3s ease infinite alternate;
+  animation:updown4 5s ease infinite alternate;
+}
+#intro #images p:nth-child(5){
+  margin-left:-100px;
+  margin-top:-20px;
+  animation:updown1 5s ease infinite alternate;
+}
+#intro #images p:nth-child(6){
+  margin-left:330px;
+  margin-top:-5px;
+  animation:updown2 5s ease infinite alternate;
+}
+#intro #images p:nth-child(7){
+   margin-top:370px;
+   margin-left:300px;
+   animation:updown3 5s ease infinite alternate;
+}
+#intro #images p:nth-child(8){
+  margin-top:350px; 
+  margin-left:-100px;
+  animation:updown4 5s ease infinite alternate;
 }
 @keyframes updown1{
   from{
     transform:translateY(0px);
   }
   to{
-    transform:translateY(4px);
+    transform:translateY(10px);
   }
 }
 @keyframes updown2{
@@ -189,7 +218,7 @@ animation:updown2 3s ease infinite alternate;
     transform:translateY(0px);
   }
   to{
-    transform:translateY(25px);
+    transform:translateY(40px);
   }
 }
 @keyframes updown3{
@@ -197,7 +226,7 @@ animation:updown2 3s ease infinite alternate;
     transform:translateY(0px);
   }
   to{
-    transform:translateY(20px);
+    transform:translateY(30px);
   }
 }
 @keyframes updown4{
@@ -205,7 +234,7 @@ animation:updown2 3s ease infinite alternate;
     transform:translateY(0px);
   }
   to{
-    transform:translateY(14px);
+    transform:translateY(20px);
   }
 }
 
@@ -224,7 +253,7 @@ font-family:ubuntu;
 border-radius:8px;
 border:2px solid #515152;
 cursor:pointer;
-font-weight:bold;
+font-weight:normal;
 letter-spacing:1px;
 }
 #intro button:hover{
@@ -448,7 +477,7 @@ margin-bottom:8px;
   background-color:#27ae60;
 }
 #stats{
-  top:310vh;
+  top:330vh;
   display:flex;
   flex-wrap:wrap;
   background: linear-gradient(to right,#5C258D,#4389A2);
