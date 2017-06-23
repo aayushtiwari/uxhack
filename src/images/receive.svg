@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="364.47mm" height="250.77mm" version="1.1" viewBox="0 0 1291.4286 888.57146" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(1411.4 -76.648)">
+  <rect x="-1411.4" y="76.648" width="1291.4" height="888.57" ry="0" color="#000000" color-rendering="auto" fill="#ffab91" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+  <path d="m-1411.4 76.649v539.65l633.57-539.65h-633.57z" fill="#ffccbc" fill-rule="evenodd"/>
+  <path d="m-244.21 76.649-1015.2 888.57h1139.4v-888.57h-124.21z" fill="#ff8a65" fill-rule="evenodd"/>
+  <path d="m-120 578.99-426.49 386.23h426.49v-386.23z" fill="#ff7043" fill-rule="evenodd"/>
+  <rect x="-1411.4" y="145.79" width="1291.4" height="760" ry="0" color="#000000" color-rendering="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+  <g transform="translate(6.2411 -3.5462)">
+   <rect x="-1170.2" y="269.89" width="318.76" height="205.82" ry="14.76" color="#000000" color-rendering="auto" fill="#b3e5fc" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+   <g transform="matrix(.83883 0 0 .91767 -1303.3 -128.85)" fill="#29b6f6" shape-rendering="auto">
+    <rect transform="matrix(.88549 .46465 -.41319 .91065 0 0)" x="346.52" y="312.79" width="209.61" height="20.914" ry="10.457" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+    <rect transform="matrix(-.88549 .46465 .41319 .91065 0 0)" x="-292.38" y="638.68" width="209.61" height="20.914" ry="10.457" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+   </g>
+   <ellipse cx="-857.18" cy="278.44" rx="63.233" ry="62.641" fill="#fff"/>
+   <circle cx="-857.18" cy="278.44" r="53.524" fill="#ff7043"/>
+   <circle cx="-857.18" cy="278.44" r="44.701" fill="#424242"/>
+   <circle cx="-856.49" cy="278.77" r="2.9612" fill="#fff"/>
+   <rect x="-859.42" y="247.79" width="5.1936" height="32.426" ry="2.5018" fill="#fff"/>
+   <rect transform="matrix(.80923 .5875 -.5875 .80923 0 0)" x="-531.66" y="705.24" width="5.2658" height="26.355" ry="3.3772" fill="#fff"/>
+   <circle cx="-819.19" cy="278.44" r="3.2824" fill="#fff"/>
+   <circle cx="-894.8" cy="278.44" r="3.2824" fill="#fff"/>
+   <circle cx="-857.18" cy="316.51" r="3.2824" fill="#fff"/>
+   <circle cx="-857.18" cy="240.5" r="3.2824" fill="#fff"/>
+   <rect x="-1170.2" y="554.15" width="318.76" height="205.82" ry="14.76" color="#000000" color-rendering="auto" fill="#c5e1a5" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+   <g transform="matrix(.83883 0 0 .91767 -1303.3 155.41)" fill="#9ccc65" shape-rendering="auto">
+    <rect transform="matrix(.88549 .46465 -.41319 .91065 0 0)" x="346.52" y="312.79" width="209.61" height="20.914" ry="10.457" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+    <rect transform="matrix(-.88549 .46465 .41319 .91065 0 0)" x="-292.38" y="638.68" width="209.61" height="20.914" ry="10.457" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+   </g>
+   <ellipse cx="-857.18" cy="562.7" rx="63.233" ry="62.641" fill="#fff"/>
+   <circle cx="-857.18" cy="562.7" r="53.524" fill="#ff7043"/>
+   <circle cx="-857.18" cy="562.7" r="44.701" fill="#424242"/>
+   <circle cx="-857.18" cy="562.7" r="3.2824" fill="#fff"/>
+   <rect x="-860.43" y="532.05" width="5.1936" height="32.426" ry="2.5018" fill="#fff"/>
+   <rect transform="matrix(.46223 .88676 -.88676 .46223 0 0)" x="100.6" y="996.36" width="5.2658" height="26.355" ry="3.3772" fill="#fff"/>
+   <circle cx="-819.19" cy="562.7" r="3.2824" fill="#fff"/>
+   <circle cx="-894.8" cy="562.7" r="3.2824" fill="#fff"/>
+   <circle cx="-857.18" cy="600.77" r="3.2824" fill="#fff"/>
+   <circle cx="-857.18" cy="524.76" r="3.2824" fill="#fff"/>
+   <rect x="-749.96" y="317.24" width="318.76" height="205.82" ry="14.76" color="#000000" color-rendering="auto" fill="#ffe082" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+   <g transform="matrix(.83883 0 0 .91767 -882.98 -81.498)" fill="#ffca28" shape-rendering="auto">
+    <rect transform="matrix(.88549 .46465 -.41319 .91065 0 0)" x="346.52" y="312.79" width="209.61" height="20.914" ry="10.457" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+    <rect transform="matrix(-.88549 .46465 .41319 .91065 0 0)" x="-292.38" y="638.68" width="209.61" height="20.914" ry="10.457" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+   </g>
+   <ellipse cx="-436.9" cy="325.79" rx="63.233" ry="62.641" fill="#fff"/>
+   <g transform="matrix(1.1306 0 0 1.1306 -783.35 251.25)">
+    <circle cx="306.43" cy="65.934" r="47.342" fill="#ff7043"/>
+    <circle cx="306.43" cy="65.934" r="39.538" fill="#424242"/>
+    <circle cx="306.43" cy="65.934" r="2.9033" fill="#fff"/>
+    <rect x="303.55" y="38.822" width="4.5938" height="28.681" ry="2.2128" fill="#fff"/>
+    <rect transform="rotate(90)" x="64.131" y="-327.73" width="4.6576" height="23.311" ry="2.9871" fill="#fff"/>
+    <circle cx="340.03" cy="65.934" r="2.9033" fill="#fff"/>
+    <circle cx="273.16" cy="65.934" r="2.9033" fill="#fff"/>
+    <circle cx="306.43" cy="99.599" r="2.9033" fill="#fff"/>
+    <circle cx="306.43" cy="32.372" r="2.9033" fill="#fff"/>
+   </g>
+   <rect x="-749.96" y="604.72" width="318.76" height="205.82" ry="14.76" color="#000000" color-rendering="auto" fill="#ef9a9a" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+   <g transform="matrix(.83883 0 0 .91767 -882.98 205.99)" fill="#ef5350" shape-rendering="auto">
+    <rect transform="matrix(.88549 .46465 -.41319 .91065 0 0)" x="346.52" y="312.79" width="209.61" height="20.914" ry="10.457" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+    <rect transform="matrix(-.88549 .46465 .41319 .91065 0 0)" x="-292.38" y="638.68" width="209.61" height="20.914" ry="10.457" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+   </g>
+   <ellipse cx="-436.9" cy="613.28" rx="63.233" ry="62.641" fill="#fff"/>
+   <circle cx="-436.9" cy="613.28" r="53.524" fill="#ff7043"/>
+   <circle cx="-436.9" cy="613.28" r="44.701" fill="#424242"/>
+   <circle cx="-436.9" cy="613.28" r="3.2824" fill="#fff"/>
+   <rect x="-440.15" y="582.63" width="5.1936" height="32.426" ry="2.5018" fill="#fff"/>
+   <rect transform="matrix(-.46234 .88671 -.88671 -.46234 0 0)" x="744.03" y="79.42" width="5.2658" height="26.355" ry="3.3772" fill="#fff"/>
+   <circle cx="-398.91" cy="613.28" r="3.2824" fill="#fff"/>
+   <circle cx="-474.52" cy="613.28" r="3.2824" fill="#fff"/>
+   <circle cx="-436.9" cy="651.35" r="3.2824" fill="#fff"/>
+   <circle cx="-436.9" cy="575.34" r="3.2824" fill="#fff"/>
+  </g>
+ </g>
+</svg>

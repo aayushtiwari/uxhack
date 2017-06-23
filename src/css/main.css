@@ -89,6 +89,7 @@ flex-wrap:wrap;
   color:#fff;
   border-radius:8px;
   border:2px solid #2980b9;
+  font-weight:bold;
 }
 #nav div:nth-child(4) a{
   background-color:#8e44ad;
@@ -98,6 +99,7 @@ flex-wrap:wrap;
   color:#f8f8ff;
   border-radius:8px;
   border:2px solid #8e44ad;
+  font-weight:bold;
 }
 #nav div:nth-child(3) a:hover{
 background-color:transparent;
@@ -119,24 +121,95 @@ canvas {
 
 #intro h1{
    font-family:'Raleway', sans-serif;
-   font-size:5em;
+   font-size:3.3rem;
    color:#252526;
    letter-spacing:1px;
-   line-height:75px;
+   line-height:68px;
    margin:0px;
    padding-bottom:22px;
    font-weight:bold;
+}
+#intro #det{
+width:50%;
+padding-left:3%;
 }
 #intro span{
   color:#3498db;
 }
 #intro{
-  width:80%;
-  top:43vh;
-  left:14%;
-  display:inline-block;
+  width:90%;
+  top:40vh;
+  display:flex;
   position:absolute;
+  margin-left:5%;
 }
+#intro #images{
+  width:50%;
+  margin-top:-18vh;
+  padding-left:10%;
+}
+#intro #images img{
+border-radius:50%;
+position:absolute;
+}
+#intro #images img:nth-child(1){
+margin-left:100px;
+width:300px;
+border:9px solid #E4E7E8;
+animation:updown1 3s ease infinite alternate;
+}
+#intro #images img:nth-child(2){
+margin-top:220px;
+margin-left:350px;
+width:200px;
+border:12px solid #E4E7E8;
+animation:updown2 3s ease infinite alternate;
+}
+#intro #images img:nth-child(3){
+  margin-left:450px;
+  width:100px;
+  border:15px solid #E4E7E8;
+  animation:updown3 3s ease infinite alternate;
+}
+#intro #images img:nth-child(4){
+  margin-top:260px;
+  border:13px solid #E4E7E8;
+  width:180px;
+  animation:updown4 3s ease infinite alternate;
+}
+@keyframes updown1{
+  from{
+    transform:translateY(0px);
+  }
+  to{
+    transform:translateY(4px);
+  }
+}
+@keyframes updown2{
+  from{
+    transform:translateY(0px);
+  }
+  to{
+    transform:translateY(25px);
+  }
+}
+@keyframes updown3{
+  from{
+    transform:translateY(0px);
+  }
+  to{
+    transform:translateY(20px);
+  }
+}
+@keyframes updown4{
+  from{
+    transform:translateY(0px);
+  }
+  to{
+    transform:translateY(14px);
+  }
+}
+
 #nav span{
     color:#2980b9;
    font-family:'Raleway', sans-serif;
@@ -145,7 +218,7 @@ canvas {
   padding:10px;
   padding-right:13px;
    padding-left:13px;
-font-size: 2em;
+font-size: 1.3rem;
 background-color:#515152;
 color:#fff;
 font-family:ubuntu;
@@ -160,7 +233,7 @@ background-color:transparent;
 color:#515152;
 }
 #intro p{
-  font-size: 1.4em;
+  font-size: 1rem;
   margin-left:10px;
 }
 #bot{
@@ -455,8 +528,8 @@ flex-basis:22%;
   justify-content:center;
 }
 #steps img{
-  width:150px;
-  height:150px;
+  width:220px;
+  height:220px;
 }
 #steps .stepin{
 padding:5px;
