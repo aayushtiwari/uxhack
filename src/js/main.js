@@ -120,3 +120,37 @@ document.addEventListener("DOMContentLoaded", function(){
   });
 AOS.init();
 
+var y=0;
+
+$(window).on('scroll',debounce(check));
+ function debounce(func, wait =20, immediate = true) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+
+function check(){
+if(window.scrollY>1083){
+  if(y===0){
+    y=1;
+$('header').css({"position":"fixed"});
+$('header').css({"background-color":"#fff"});
+}
+}
+else{
+  if(y===1){
+    y=0;
+  $('header').css({"position":"static"});
+$('header').css({"background-color":"transparent"});
+}
+}
+};
