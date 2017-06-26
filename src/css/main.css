@@ -818,7 +818,7 @@ font-size: 1.1rem;
   }
   #intro h1{
     font-size: 2.5rem;
-    padding-bottom:0px;
+    padding-bottom:10px;
   }
   #intro #images{
     width:50%;
@@ -827,9 +827,81 @@ font-size: 1.1rem;
     font-size: 0.9rem;
   }
 }
+
+
 @media (max-width:1092px){
   #intro h1{
     line-height:50px;
     padding-bottom:10px;
+  }
+  #intro #images img:nth-child(1){
+    width:150px;
+    margin-left:0px;
+    margin-top:20px;
+  }
+   #intro #images img:nth-child(2){
+    width:90px;
+
+  }
+   #intro #images img:nth-child(3){
+    width:50px;
+    margin-left:200px;
+  }
+   #intro #images img:nth-child(4){
+    width:100px;
+  }
+  #intro #images p{
+    font-size: 0.9rem;
+  }
+   #intro #images p:nth-child(6){
+margin-left:200px;
+margin-top: -7px;
+   }
+   #intro #images p:nth-child(7){
+    margin-left:200px;
+    margin-top:319px; 
+   }
+  #intro #images p:nth-child(8){
+    margin-top:310px;
+  }
+}
+
+
+@media (max-width:830px){
+#intro{
+  flex-wrap:wrap;
+}
+#intro h1{
+  font-size: 2.8rem;
+  line-height:60px;
+}
+
+#det,#images{
+  flex-basis:100%;
+}
+#intro #images{
+  height:370px;
+  margin-top:0vh;
+  margin-left:17%;
+}
+#intro{
+  top:20vh;
+}
+#det{
+  margin-bottom:100px;
+}
+}
+
+
+@media (max-width:600px) {
+  #intro h1{
+  font-size:2.5rem;
+  padding-bottom:0px;
+  }
+  #intro button{
+    margin-bottom:6px;
+  }
+  #intro #images{
+    margin-left: 14%;
   }
 }
