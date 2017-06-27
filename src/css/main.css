@@ -723,10 +723,10 @@ justify-content:space-around;
 #footer{
   background-color:#333;
   width:100%;
-  height:320px;
   display:flex;
   font-family:lato;
   justify-content:space-between;
+  flex-wrap:wrap;
 }
 #footer h1{
   font-size:1.45rem;
@@ -940,6 +940,9 @@ font-size: 1.1rem;
   #social .blocks{
     flex-basis:43%;
   }
+  #footer div{
+    flex-basis:45%;
+  }
 }
 
 
@@ -1102,6 +1105,12 @@ font-size: 1.1rem;
  }
  #numbers div{
   flex-basis:95%;
+}
+#footer div{
+  flex-basis:95%;
+}
+#footer h1{
+  font-size: 1.8rem;
 }
 }
 
