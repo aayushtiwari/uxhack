@@ -784,6 +784,8 @@ justify-content:space-around;
 #copyright a{
    text-decoration:none;
    color:#fff;
+   display:inline-block;
+   line-height:30px;
 }
 #footer a:hover{
   color:#3498db;
@@ -1002,6 +1004,10 @@ font-size: 1.1rem;
 #social .blocks{
     flex-basis:90%;
   }
+  #steps{
+    width:100%;
+    margin-left:0px;
+  }
 }
 
 
@@ -1174,5 +1180,26 @@ font-size: 1.1rem;
 }
 #numbers p{
   font-size: 1.5rem;
+}
+#head{
+  flex-basis:100%;
+  padding-left:0px;
+  padding-right:0px;
+}
+#head h2,#head h4{
+  padding-left:7px;
+  padding-right:7px;
+}
+#steps{
+  margin-right:0px;
+}
+.social h2{
+  font-size: 2rem;
+}
+#copyright{
+  font-size: 0.8rem;
+}
+#copyright p{
+text-align: center;
 }
 }
