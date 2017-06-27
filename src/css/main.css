@@ -12,6 +12,7 @@ nav{
   z-index: 2;
   width:100%;
   height:100%;
+  align-items:center;
 }
 header{
   width:100%;
@@ -56,18 +57,21 @@ display:flex;
 flex-wrap:wrap;
 }
 #nav a{
+  display:flex;
   text-align:center;
   display:inline-block;
   font-size:1.1rem;
   font-family:lato;
   letter-spacing:3px;
   color:#000;
-  padding:5px;
+  padding:0px;
+padding-bottom:6px;
   padding-right:10px;
   padding-left:10px;
   cursor:pointer;
   font-weight:500;
   text-decoration:none;
+  padding: 5px;
 }
 #nav div span{
   width:0%;
@@ -318,6 +322,7 @@ color:#515152;
   color:#fff;
   font-family:arvo;
   letter-spacing:1px;
+  text-align:center;
 }
 #optionc button{
   padding:10px;
@@ -808,6 +813,8 @@ justify-content:space-around;
 }
 
 /*media query*/
+
+
 @media (max-width:1307px) {
   #intro #det{
     width:50%;
@@ -826,10 +833,34 @@ font-size: 1.1rem;
   #bot p{
     font-size: 0.9rem;
   }
+  #optionc p{
+    font-size: 1.2rem;
+  }
+  #optionc button {
+    font-size: 1rem;
+  }
 }
 
 
+
+
 @media (max-width:1092px){
+  #nav div:nth-child(3) a{
+    padding:5px;
+}
+#nav div:nth-child(4) a{
+  
+   padding:5px;
+}
+  #logo img{
+    width:150px;
+  }
+  #nav a{
+    font-size: 1rem;
+  }
+  #scroll{
+    display:none;
+  }
   #intro h1{
     line-height:50px;
     padding-bottom:10px;
@@ -841,6 +872,8 @@ font-size: 1.1rem;
   }
    #intro #images img:nth-child(2){
     width:90px;
+    margin-left:234px;
+    margin-top: 187px;
 
   }
    #intro #images img:nth-child(3){
@@ -854,8 +887,8 @@ font-size: 1.1rem;
     font-size: 0.9rem;
   }
    #intro #images p:nth-child(6){
-margin-left:200px;
-margin-top: -7px;
+   margin-left:200px;
+   margin-top: -7px;
    }
    #intro #images p:nth-child(7){
     margin-left:200px;
@@ -864,10 +897,32 @@ margin-top: -7px;
   #intro #images p:nth-child(8){
     margin-top:310px;
   }
+  #optionc p{
+    font-size: 1rem;
+  }
+  #optionc button {
+    font-size:0.9rem;
+    margin-right:10px;
+    margin-left:10px;
+  }
 }
 
 
+
 @media (max-width:830px){
+   #nav div:nth-child(3) a{
+    padding:5px;
+    border-radius:4px;
+}
+#nav div:nth-child(4) a{
+   padding:5px;
+}
+  #logo img{
+    width:120px;
+  }
+  #nav a{
+    font-size:0.9rem;
+  }
 #intro{
   flex-wrap:wrap;
 }
@@ -890,18 +945,112 @@ margin-top: -7px;
 #det{
   margin-bottom:100px;
 }
+  #optionc button {
+    margin-right:5px;
+    margin-left:5px;
+  }
+
+
+
 }
+
+
+
 
 
 @media (max-width:600px) {
   #intro h1{
-  font-size:2.5rem;
-  padding-bottom:0px;
+  font-size:2.4rem;
+  padding-bottom:16px;
   }
   #intro button{
     margin-bottom:6px;
   }
   #intro #images{
     margin-left: 14%;
+  }
+   #bot p{
+    margin-left:0px;
+  }
+  #intro #images{
+    margin-left:9%; 
+  }
+  #intro #images img:nth-child(1){
+    width:110px;
+    margin-left:0px;
+    margin-top:55px;
+  }
+   #intro #images img:nth-child(2){
+    width:80px;
+    margin-top: 180px;
+    margin-left: 180px;  
+  }
+   #intro #images img:nth-child(3){
+    width:50px;
+    margin-left:167px;
+  }
+   #intro #images img:nth-child(4){
+    width:70px;
+    margin-top:210px;
+  }
+  #intro #images p{
+    font-size: 0.9rem;
+  }
+    #intro #images p:nth-child(5){
+    margin-left: -99px;
+    margin-top: 7px;
+   }
+   #intro #images p:nth-child(6){
+    margin-left:172px;
+   }
+   #intro #images p:nth-child(7){
+    margin-left:187px;
+    margin-top:302px; 
+   }
+  #intro #images p:nth-child(8){
+    margin-top:292px;
+  }
+  #intro #images p{
+    font-size: 0.8rem;
+  }
+  #optionc{
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:450px){
+#intro h1{
+  font-size:2.1rem;
+  line-height:40px;
+  padding-bottom:7px;
+  }
+  #bot p{
+    font-size: 0.8rem;
+  }
+  #intro #images img:nth-child(1){
+    margin-left:-27px;
+    width: 122px;
+    }
+#intro #images img:nth-child(2){
+    margin-left:138px;
+    }
+#intro #images p:nth-child(5){
+    margin-left: -58px;
+    margin-top: 7px;
+   }
+   #intro #images p:nth-child(6){
+    margin-left:161px;
+    margin-top: -18px;
+   }
+   #intro #images p:nth-child(7){
+    margin-left:172px;
+    margin-top:302px; 
+   }
+  #intro #images p:nth-child(8){
+    margin-top:292px;
+    margin-left: -56px;
+  }
+  #intro #images p{
+    font-size: 0.7rem;
   }
 }
