@@ -57,8 +57,8 @@ display: -o-flex;
 display:flex;
 flex-wrap: wrap;
 flex-basis:20%;
-padding-top:7px;
-padding-bottom:7px;
+padding-top:10px;
+padding-bottom:10px;
 }
 #nav a{
   text-align:center;
@@ -350,11 +350,15 @@ color:#515152;
 background-color:#fff;
 }
 #tweaks{
+  background:linear-gradient(to right,#5C258D,#4389A2);
   margin-top:40px;
   display:flex;
   flex-wrap:wrap;
   justify-content:space-around;
   margin-bottom:20px;
+  position: relative;
+  top:112vh;
+  padding-bottom:20px;
 }
 #con,#ui,#feat,#prod{
 flex-basis:24%;
@@ -393,6 +397,8 @@ justify-content:center;
   padding-left:15px;
   font-family: ubuntu ;
   margin-bottom:50px;
+  color:#fff;
+  margin-top:60px;
 }
 #tweaks .name h2{
 font-size: 2rem;
@@ -592,6 +598,9 @@ justify-content:space-between;
 font-family:ubuntu;
 flex-wrap:wrap;
 margin-top:10px;
+position:relative;
+top:120vh;
+margin-bottom:80px;
 }
 #steps .h{
   flex-basis:100%;
@@ -606,14 +615,14 @@ margin-top:10px;
 }
 #steps .h h3{
   font-size: 3rem;
-    color:#fff;
+    color:#7f8c8d;
   font-family:Ubuntu;
   padding:8px;
   padding-left:10px;
   padding-right:10px;
   letter-spacing:1.5px;
   font-weight:bold;
-  border-bottom:5px solid #fff;
+  border-bottom:5px solid #7f8c8d;
 }
 #steps .stepn{
 flex-basis:22%;
@@ -646,7 +655,7 @@ letter-spacing:1px;
 text-align:center;
 font-family: lato;
 margin-top:10px;
-color:#fff;
+color:#7f8c8d;
 }
 
 #stats #social{
@@ -999,9 +1008,6 @@ font-size: 1.1rem;
 #template{
   top: 65vh;
 }
-#stats{
-  top:78vh;
-}
 #numbers div{
   flex-basis:45%;
   margin-bottom:30px;
@@ -1012,6 +1018,13 @@ font-size: 1.1rem;
   #steps{
     width:100%;
     margin-left:0px;
+    top: 80vh;
+  }
+  #tweaks{
+    top:81vh;
+  }
+  #stats{
+    top:81vh;
   }
 }
 
@@ -1133,6 +1146,8 @@ font-size: 1.1rem;
   }
   #nav div{
     flex-basis:45%;
+    padding-bottom: 5px;
+    padding-top: 5px;
   }
   #nav div:nth-child(3) a{
     padding-left:10px;
@@ -1178,9 +1193,6 @@ font-size: 1.1rem;
   #intro #images p{
     font-size: 0.7rem;
   }
-  #opt{
-    padding-left: 0px;
-  }
   #button button{
     font-size: 0.9rem;
     padding-left:10px;
@@ -1224,6 +1236,7 @@ font-size: 1.1rem;
 }
 #steps{
   margin-right:0px;
+  top:41vh;
 }
 .social h2{
   font-size: 2rem;
@@ -1238,5 +1251,17 @@ padding-left:4px;
 }
 canvas{
   display:none;
+}
+#tweaks{
+  top:45vh;
+}
+#social .blocks{
+  margin-left:0px;
+  margin-right:0px;
+  flex-basis:98%;
+}
+#stats #social{
+  width: 95%;
+  margin-left: 2.5%;
 }
 }
