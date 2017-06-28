@@ -43,6 +43,16 @@ margin:5px;
 #logo img{
  width:180px;
 }
+#logo div{
+  display:none;
+  position:absolute;
+  cursor:pointer;
+}
+#logo div img{
+  width:30px;
+  border:none;
+  background:transparent;
+}
 #logo a{
   padding-left:23%;
 }
@@ -432,7 +442,9 @@ margin-bottom:10px;
 margin-top:10px;
 color:#fff;
 }
-
+.show{
+  display:flex!important;
+}
 #prod:hover>.detail{
   visibility:visible;
 }
@@ -844,6 +856,15 @@ justify-content:space-around;
 
 
 @media (max-width:1307px) {
+  #nav{
+    flex:4;
+  }
+  #logo{
+    flex:1;
+  }
+  #nav a{
+    font-size: 1.05rem;
+  }
   #intro #det{
     width:50%;
     margin-left:0%;
@@ -877,10 +898,11 @@ font-size: 1.1rem;
     flex:1;
   }
   #nav{
-    flex:3;
+    flex:4;
   }
-  #nav a{
+  #logo a{
     font-size: 1rem;
+    padding-left:10px;
   }
   #logo img{
     width:150px;
@@ -1263,5 +1285,14 @@ canvas{
 #stats #social{
   width: 95%;
   margin-left: 2.5%;
+}
+#logo div{
+  width:10%;
+  right:4%;
+  display:flex;
+  justify-content:flex-end;
+}
+#nav div:nth-child(1),#nav div:nth-child(2){
+  display:none;
 }
 }

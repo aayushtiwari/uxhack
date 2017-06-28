@@ -154,3 +154,9 @@ $('header').css({"background-color":"transparent"});
 }
 }
 };
+var x=0;
+$('#logo div img').on('click',function(){
+  $("#nav div:nth-child(1),#nav div:nth-child(2)").toggleClass("show")
+  $(this).css({'transform':`rotate(${x+90}deg)`});
+  x=x+90;
+});
