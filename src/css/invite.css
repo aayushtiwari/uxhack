@@ -137,7 +137,7 @@ color:#8e44ad;
 #background{
   background-repeat:no-repeat;
     background-size:100% 100%;
-    background-image: url('/home/shush/testing zone/uxhack/src/images/cover-min.jpeg');
+    background-image: url('../images/cover-min.jpeg');
     width:100%;
     height:100vh;
 }
@@ -150,11 +150,16 @@ color:#8e44ad;
   top:50%;
 }
 #intro h1{
-  font-family:ubuntu;
-  letter-spacing:1px;
+  font-family:raleway;
+  letter-spacing:2px;
   margin-bottom:0px;
-  color:#474747;
+  background-color:#171b17;
+  color:#fff;
+  padding:8px;
+  padding-left: 17px;
+  padding-right:17px;
   font-size: 2.2rem;
+  font-weight:normal;
 }
 #intro h3{
   font-weight: normal;
@@ -163,8 +168,37 @@ color:#8e44ad;
   line-height:30px;
   color:#474747;
 }
-p{
+#intro p{
   font-weight: normal;
   font-family:ubuntu;
   letter-spacing:1px;
+  padding-left:7px;
+   color:#474747;
+}
+#intro button{
+  font-family:ubuntu;
+  font-size: 1.2rem;
+  letter-spacing:1px;
+  border:none;
+  background-color:#3498db;
+  color:#fff;
+  padding: 4px;
+  padding-left:15px; 
+  padding-right:15px;
+  display: flex;
+  align-items: center;
+}
+#intro img{
+  margin-right:10px;
+  width:25px;
+}
+#intro button:hover{
+  background-color:#2980b9;
+}
+#intro a{
+ color: #3498db;
+ text-decoration:none;
+}
+#intro a:hover{
+  text-decoration:underline;
 }
