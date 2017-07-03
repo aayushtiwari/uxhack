@@ -1,3 +1,10 @@
+*{
+  outline:none;
+}
+@font-face{
+  font-family:heading;
+  src:url('../fonts/DejaVuSans.ttf');
+}
 body{
   margin:0;
   background-color:#F1F1F3;
@@ -151,20 +158,19 @@ color:#8e44ad;
   padding-left:40px;
 }
 #intro #read h1{
-  font-family:raleway;
+  font-family:heading;
   letter-spacing:2px;
   margin-bottom:0px;
-  /*background-color:#171b17;*/
-  color:#34495e;
+  background-color:#171b17;
+  color:#fff;
   padding:10px;
-  /*padding-left: 17px;*/
-  /*padding-right:17px;*/
-  font-size: 2.2rem;
-  font-weight:medium;
+  padding-left: 10px;
+  padding-right:10px;
+  font-size: 2rem;
+  font-weight:normal;
   text-align: center;
 }
 #intro #read h3{
-  margin-top:0px;
   font-weight: normal;
   font-family:ubuntu;
   letter-spacing:1px;
@@ -178,8 +184,9 @@ color:#8e44ad;
    color:#474747;
 }
 #intro #readb{
-  padding-left:20px;
-  padding-right:20px;
+  width:95%;
+  margin-left:5%;
+  padding-right:10px;
 }
 #intro #read button{
   font-family:ubuntu;
@@ -221,6 +228,6 @@ color:#8e44ad;
   position: absolute;
   width:710px;
   top:-16vh;
-  right:-50px;
+  margin-left:100px;
 }
 
