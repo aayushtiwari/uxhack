@@ -233,46 +233,146 @@ color:#8e44ad;
 
 #how{
   position: relative;
-  top:50vh;
+  top:70vh;
   width:100%;
 }
 #howhead{
   display: flex;
   justify-content:center;
+  align-items:center;
 }
+#howhead h1{
+  background-color:#171b17;
+  color:#fff;
+  padding:15px;
+  font-family: heading;
+  padding-right:30px;
+  font-size: 2rem;
+  display:flex;
+  align-items:center;
+}
+#howhead img{
+  padding-left:17px;
+  padding-right:10px;
+  width:40px;
+}
+
+
+/***invite***/
+
+
 #invite{
   display:flex;
   flex-wrap:wrap;
+  margin-top:100px;
+  margin-bottom:100px;
 }
 #inviteimg{
 flex-basis:40%;
 display: flex;
 justify-content:center;
 }
+#inviteimg img{
+  width:400px;
+}
 #invitetext{
   flex-basis:60%;
+  display:flex;
+  align-items:center;
 }
+#invitetext div{
+display:flex;
+width:60%;
+flex-wrap:wrap;
+justify-content:center;
+margin-left:20%;
+}
+#invitetext h2{
+font-family:lato;
+font-size: 1.5rem;
+color: #474747;
+letter-spacing:1px;
+margin-bottom:0px;
+}
+#invitetext p{
+  margin-top:10px;
+  font-size: 1.1rem;
+  font-family:ubuntu;
+  color: #474747;
+  letter-spacing:1px;
+  line-height: 27px;
+  text-align:center;
+}
+
+
+
+/***interact***/
+
 #interact{
   display:flex;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 #interacttext{
+  display:flex;
+  align-content:center;
  flex-basis:60%;
+ align-items:center;
 }
-#interactimage{
+#interactimg{
   flex-basis:40%;
 }
+#interactimg img{
+  width:400px;
+}
+
+
+
+
+/******profesional******/
+
+
 #profesional{
   display:flex;
-  flex-wrap: wrap;
-}
-#profesionaltext{
- flex-basis:60%;
+  flex-wrap:wrap;
+  margin-top:100px;
+  margin-bottom:100px;
 }
 #profesionalimg{
+flex-basis:40%;
+display: flex;
+justify-content:center;
+}
+#profesionalimg img{
+  width:400px;
+}
+#profesionaltext{
+  flex-basis:60%;
   display:flex;
-  flex-basis:40%;
-  justify-content:center;
+  align-items:center;
+}
+#profesionaltext div{
+display:flex;
+width:70%;
+flex-wrap:wrap;
+justify-content:center;
+margin-left:15%;
+}
+#profesionaltext h2{
+font-family:lato;
+font-size: 1.5rem;
+color: #474747;
+letter-spacing:1px;
+margin-bottom:0px;
+}
+#profesionaltext p{
+  margin-top:10px;
+  font-size: 1.1rem;
+  font-family:ubuntu;
+  color: #474747;
+  letter-spacing:1px;
+  line-height: 27px;
+  text-align:center;
 }
 
 
