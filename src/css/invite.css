@@ -9,6 +9,7 @@ body{
   margin:0;
   background-color:#F1F1F3;
   overflow-x:hidden;
+  width:100%;
 }
 nav{
   display: -webkit-flex;
@@ -139,6 +140,11 @@ color:#2980b9;
 background-color:transparent;
 color:#8e44ad;
 }
+.show{
+  display:flex!important;
+}
+
+
 
 
 /******intro******/
@@ -176,15 +182,18 @@ color:#8e44ad;
   letter-spacing:1px;
   line-height:30px;
   color:#474747;
+  font-size: 1.1rem;
+  text-align:center;
 }
 #intro #read p{
   font-weight: normal;
   font-family:ubuntu;
   letter-spacing:1px;
    color:#474747;
+   font-size:1rem;
 }
 #intro #readb{
-  width:95%;
+  width:90%;
   margin-left:5%;
   padding-right:10px;
 }
@@ -449,22 +458,6 @@ padding-right: 17px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /***social,footer,contact***/
 #foot{
   top:70vh;
@@ -628,4 +621,260 @@ justify-content:space-around;
 #copyright p{
   margin:0;
   color:#fff;
+}
+
+
+
+
+
+/*******media queries*******/
+@media (max-width:1307px) {
+  #nav{
+    flex:4;
+  }
+  #logo{
+    flex:1;
+  }
+  #nav a{
+    font-size: 1.05rem;
+  }
+  #intro #det{
+    width:50%;
+    margin-left:0%;
+  }
+  #intro button{
+font-size: 1.1rem;
+  }
+  #intro h1{
+    font-size: 2.5rem;
+    padding-bottom:10px;
+  }
+  #intro #images{
+    width:50%;
+  }
+  #bot p{
+    font-size: 0.9rem;
+  }
+  #optionc p{
+    font-size: 1.2rem;
+  }
+  #optionc button {
+    font-size: 1rem;
+  }
+  #intro #read h1{
+    font-size: 1.5rem;
+  }
+  #intro #read h3{
+    font-size: 1rem;
+  }
+  #intro #read p{
+    font-size: 0.9rem;
+  }
+  #images .lap{
+    width:680px;
+    top:-7vh;
+  }
+  #images .screen{
+    top:-4vh;
+    width:540px;
+    margin-left:75px;
+  }
+}
+
+
+
+
+@media (max-width:1092px){
+  #logo{
+    flex:1;
+  }
+  #nav{
+    flex:4;
+  }
+  #logo a{
+    font-size: 1rem;
+    padding-left:10px;
+  }
+  #logo img{
+    width:150px;
+  }
+  #social .blocks{
+    flex-basis:43%;
+  }
+  #footer div{
+    flex-basis:45%;
+  }
+  #intro{
+    top:20vh;
+  }
+  #intro #readb{
+  width:95%;
+  margin-left:2.5%;
+  padding-right:10px;
+}
+  #intro #read h1{
+    font-size: 2rem;
+    margin-bottom:24px; 
+  }
+  #intro #read h3{
+    font-size: 1.1rem;
+    margin-bottom:30px;
+    flex-basis:100%;
+  }
+  #intro #read p{
+    font-size: 1rem;
+    margin-left:10px;
+  }
+  #read{
+    flex-basis:80%;
+    padding-left:0px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:50px; 
+  }
+  #intro #readb{
+  display: flex;
+  flex-wrap:wrap;
+  }
+  #images{
+    flex-basis:100%;
+    display:flex;
+    margin-left:20%;
+  }
+  #images .lap{
+  top:auto;
+  position: relative;
+  margin-left:auto;
+  width:900px;
+  }
+  #images .screen{
+    top:auto;
+    width:710px;
+    position:absolute;
+    margin-left:111px;
+    margin-top:38px;
+  }
+  #how{
+    top:50vh;
+  }
+}
+
+
+
+
+@media (max-width:830px){
+  #logo img{
+    width:140px;
+  }
+  #nav{
+    justify-content:space-between;
+  }
+  #nav div{
+    flex-basis:43%;
+  }
+  #nav a{
+    font-size: 0.95rem;
+  }
+
+#social .blocks{
+    flex-basis:90%;
+  }
+#intro #readb{
+  width:100%;
+  margin-left:auto;
+}
+#read{
+  flex-basis:95%;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  margin-bottom: 100px; 
+}
+#images{
+  margin-left:5%;
+}
+}
+
+
+
+
+
+@media (max-width:600px) {
+#footer div{
+  flex-basis:95%;
+}
+#footer h1{
+  font-size: 1.8rem;
+}
+}
+
+
+
+
+@media (max-width:450px){
+  #nav{
+    flex:5;
+    flex-basis:100%;
+    justify-content:center;
+  }
+  #logo a{
+    padding-left:0;
+  }
+  #logo{
+    justify-content:center;
+  }
+  #nav div{
+    flex-basis:45%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  #nav div:nth-child(3) a{
+    padding-left:10px;
+    padding-right:10px;
+  }
+  
+.social h2{
+  font-size: 2rem;
+}
+#copyright{
+  font-size: 0.8rem;
+  padding-left:0px;
+}
+#copyright p{
+text-align: center;
+padding-left:4px;
+}
+
+#social .blocks{
+  margin-left:0px;
+  margin-right:0px;
+  flex-basis:98%;
+}
+#social{
+  width: 95%;
+  margin-left: 2.5%;
+}
+#logo div{
+  width:10%;
+  right:4%;
+  display:flex;
+  justify-content:flex-end;
+}
+#nav div:nth-child(1),#nav div:nth-child(2){
+  display:none;
+}
+#intro{
+  top:10vh;
+}
+#read{
+  flex-basis:100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+#intro #read h1{
+  font-size: 1.5rem;
+  padding:17px;
+}
+#readb{
+  justify-content:center;
+}
 }
