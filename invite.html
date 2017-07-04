@@ -6,9 +6,11 @@
     <title>invite</title>
     <link href="https://fonts.googleapis.com/css?family=Arvo|Lato|Roboto|Ubuntu|Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="src/css/invite.css">
+    <link rel="stylesheet" type="text/css" href="src/dep/aos.css">
     <script>
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
     </script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -45,7 +47,7 @@
         </div>
         <div id="images">
             <img class="lap" src="src/images/laptop.png" alt="">
-            <img class="screen" src="src/images/screen1.png">
+            <img class="screen" src="src/images/croped1.png">
         </div>
     </div>
     <div id="how">
@@ -53,7 +55,7 @@
             <h1><img src="src/images/cog.svg" alt="">How it Works</h1>
         </div>
         <div id="invite">
-            <div id="inviteimg">
+            <div id="inviteimg" data-aos="fade-right" data-aos-duration="2000">
                 <img src="src/images/presentation-text.png" alt="">
             </div>
             <div id="invitetext">
@@ -66,29 +68,31 @@
         <div id="interact" >
             <div id="interacttext">
                 <div>
-                    <h2>INTERACT & BUILD YOUR PROFILE<h2>
-                    <span>
-                        <button class="touched button b1">
-                            Suggest Improvements</button>
-                    </span>
-                    <span>
-                        <button class="button b2" >Submit Hacks</button>
-                    </span>
-                    <span>
-                        <button class="button b3">Share Knowledge</button>
-                    </span>
-                    <span>
-                        <button class="button b4">Participate in Events</button>
-                    </span>
+                    <h2>INTERACT & BUILD YOUR PROFILE</h2>
+                    <span1>
+                      <span>
+                          <button class="touched button b1">
+                              Suggest Improvements</button>
+                      </span>
+                      <span>
+                          <button class="button b2" >Submit Hacks</button>
+                      </span>
+                      <span>
+                          <button class="button b3">Share Knowledge</button>
+                      </span>
+                      <span>
+                          <button class="button b4">Participate in Events</button>
+                      </span>
+                    </span1>
                 </div>
             </div>
-            <div id="interactimg"  >
+            <div id="interactimg" data-aos="fade-left" data-aos-duration="2000">
                 <img src="src/images/terminal.svg" alt="">
                 <img class="aboveimg" src="src/images/1.svg">
             </div>
         </div>
         <div id="profesional">
-            <div id="profesionalimg">
+            <div id="profesionalimg" data-aos="fade-right" data-aos-duration="2000">
                 <img src="src/images/presentation-text.png" alt="">
             </div>
             <div id="profesionaltext">
