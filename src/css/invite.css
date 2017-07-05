@@ -7,6 +7,8 @@
 }
 body{
   margin:0;
+  width:100%;
+  width:100%;
   background-color:#F1F1F3;
   overflow-x:hidden;
   width:100%;
@@ -284,6 +286,7 @@ color:#8e44ad;
 flex-basis:50%;
 display: flex;
 justify-content:center;
+align-items:center;
 }
 #inviteimg img{
   width:400px;
@@ -312,6 +315,7 @@ padding-left:17px;
 padding-right:17px;
 display: flex;
 align-items:center;
+text-align: center;
 }
 #invitetext p{
   margin-top:10px;
@@ -340,6 +344,7 @@ align-items:center;
 flex-basis:50%;
 display: flex;
 justify-content:center;
+align-items: center;
 }
 #interactimg img{
   width:500px;
@@ -371,6 +376,7 @@ background-color:#3498db;
 padding: 13px;
 padding-left: 17px;
 padding-right: 17px;
+text-align: center;
 }
 #interact span{
   flex-basis:100%;
@@ -394,7 +400,6 @@ padding-right: 17px;
 #interact .aboveimg{
   position: absolute;
   width:180px;
-  margin-top:100px;
 }
 .touched{
 background-color:#2ecc71!important;
@@ -416,6 +421,7 @@ background-color:#2ecc71!important;
 flex-basis:50%;
 display: flex;
 justify-content:center;
+align-items:center;
 }
 #profesionalimg img{
   width:400px;
@@ -679,6 +685,15 @@ font-size: 1.1rem;
     width:540px;
     margin-left:75px;
   }
+  #interacttext h2{
+    font-size: 1.2rem;
+  }
+  #interact span1{
+    width:70%;
+  } 
+  #interact div{
+    width:80%;
+  }
 }
 
 
@@ -757,6 +772,44 @@ font-size: 1.1rem;
   #how{
     top:50vh;
   }
+  #inviteimg{
+    flex-basis:100%;
+    align-content:center;
+    width:100%;
+    margin-bottom:70px;
+  }
+  #invitetext{
+    flex-basis:100%;
+  }
+  #interactimg{
+    flex-basis:100%;
+    order:-1;
+    margin-bottom: 50px;
+  }
+  #interacttext{
+    flex-basis:100%;
+  }
+  #interacttext div{
+    margin-left:0;
+    width:100%;
+  }
+  #interacttext span1{
+    width:80%;
+    justify-content:space-around;
+  }
+  #interacttext span{
+    flex-basis:40%;
+  }
+  #profesionalimg{
+    flex-basis:100%;
+    margin-bottom:50px;
+  }
+ #profesionaltext{
+  flex-basis:100%;
+ }
+#foot{
+  top: 50vh;
+}
 }
 
 
@@ -792,6 +845,9 @@ font-size: 1.1rem;
 #images{
   margin-left:5%;
 }
+#interact span1{
+  width:90%;
+}
 }
 
 
@@ -804,6 +860,16 @@ font-size: 1.1rem;
 }
 #footer h1{
   font-size: 1.8rem;
+}
+#invitetext div{
+  width:90%;
+  margin-left: 5%;
+}
+#interact span1{
+justify-content:space-between;
+}
+#interact span{
+  flex-basis: 48%;
 }
 }
 
@@ -836,8 +902,9 @@ font-size: 1.1rem;
   font-size: 2rem;
 }
 #copyright{
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   padding-left:0px;
+  width:auto;
 }
 #copyright p{
 text-align: center;
@@ -874,7 +941,71 @@ padding-left:4px;
   font-size: 1.5rem;
   padding:17px;
 }
-#readb{
+#intro #readb{
   justify-content:center;
+  width:97%;
+  padding-right:0;
+  margin-right:auto; 
+}
+#intro #images{
+  width: 100%;
+}
+#images .lap{
+  position:absolute;
+  width: 450px;
+}
+#images .screen{
+  width: 350px;
+margin-top: 17px;
+margin-left: 52px;
+}
+#images {
+  display:flex;
+  position:relative;
+  height:300px;
+  margin-left:0;
+  overflow-x:hidden;
+}
+#how{
+  top: 29vh;
+}
+#inviteimg img{
+  width:200px;
+}
+#invitetext div{
+  width:95%;
+  margin-left: 2.5%;
+}
+#interactimg img{
+  width: 300px;
+}
+#interact .aboveimg{
+  width:100px;
+}
+#interacttext span1{
+  width: 98%;
+}
+#interacttext button{
+  font-size: 1rem;
+}
+#profesionalimg img{
+  width:200px;
+}
+#interact{
+margin-top: 0;
+padding-top:30px;
+padding-bottom: 50px;
+margin-bottom: 0;
+}
+#profesionaltext div{
+  width:98%;
+  margin-left: 1%;
+}
+#profesional{
+margin-bottom: 0;
+margin-top:50px;
+}
+#foot{
+  top:29vh;
 }
 }
