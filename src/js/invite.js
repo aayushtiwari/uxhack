@@ -77,3 +77,6 @@ $('#logo div img').on('click',function(){
   $(this).css({'transform':`rotate(${x+90}deg)`});
   x=x+90;
 });
+$('#interacttext button').on('click',function(){
+  window.scroll(0,1975);
+});

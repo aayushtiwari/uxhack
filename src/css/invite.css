@@ -400,6 +400,7 @@ text-align: center;
 #interact .aboveimg{
   position: absolute;
   width:180px;
+  margin-left:auto;
 }
 .touched{
 background-color:#2ecc71!important;
@@ -968,6 +969,7 @@ margin-left: 52px;
 }
 #how{
   top: 29vh;
+  overflow-x:hidden;
 }
 #inviteimg img{
   width:200px;
