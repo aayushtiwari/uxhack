@@ -148,6 +148,7 @@ color:#8e44ad;
   flex-wrap:wrap;
   top:20vh;
   position: relative;
+  margin-bottom:230px;
 }
 #blockhe{
   flex-basis:90%;
@@ -202,7 +203,7 @@ color:#8e44ad;
 }
 #blockbot{
   width:100%;
-  margin-top:70px;
+  margin-top:150px;
   display:flex;
   flex-wrap: wrap;
   background: linear-gradient(to right,#5C258D,#4389A2);
@@ -236,6 +237,7 @@ color:#8e44ad;
   letter-spacing:1px;
   color:#fff; 
   text-align:center;
+  margin-top: 5px;
 }
 #blockbot div:nth-child(1){
   margin-top:20px;
@@ -262,10 +264,113 @@ color:#8e44ad;
 
 
 
+/****secondmenu*****/
+
+.second{
+  display:none;
+  flex-wrap: wrap;
+  top:18vh;
+  position: relative;
+}
+.head{
+  flex-basis:100%;
+  display:flex;
+}
+.head h2{
+  font-family:ubuntu;
+  font-size: 1.7rem;
+  margin-left:2%;
+  color:#fff;
+  background-color: #171b17;
+  padding:13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 0;
+}
+.body{
+  display: flex;
+  flex-wrap:wrap;
+}
+.body div{
+  flex-basis:100%;
+  padding-left:2%;
+}
+.body div h3{
+font-family:roboto; 
+  font-size: 1.2rem;
+  letter-spacing:1px;
+  color:#616161;
+  padding:10px;
+  font-weight:600;
+}
+.optsecond{
+  margin-bottom:40px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+.optsecond div{
+  display:flex;
+  flex-basis:100%;
+  justify-content:flex-start;
+  margin-bottom:10px;
+}
+.optsecond div button{
+  border: none;
+  font-size: 1.1rem;
+  letter-spacing:1px;
+  font-family:ubuntu;
+  padding: 8px;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color:#3498db;
+  color:#fff;
+  font-weight:600;
+  cursor:pointer;
+  border-radius:5px;
+}
+.optsecond div button:hover{
+  background-color:#616161;
+}
+.back{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+}
+.backbut{
+  display:flex;
+  align-items:center;
+  cursor:pointer;
+  padding-left:15px;
+  padding-right:15px;
+}
+.backbut:hover{
+  background-color:#616161;
+}
+.backbut:hover >h4{
+  color:#fff;
+}
+.backbut:hover > i{
+  color:#fff;
+}
+.back h4{
+  font-family:ubuntu;
+  padding-left:10px;
+  padding-right:10px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  color:#616161;
+}
+.back i{
+  color:#616161;
+}
+
+
+
 
 /***social,footer,contact***/
 #foot{
-  top:20vh;
   position:relative;
   background: linear-gradient(to right,#5C258D,#4389A2);
 }
