@@ -547,6 +547,76 @@ margin-bottom:5px;
 
 
 
+/******other******/
+#other{
+  top:24vh;
+  position:relative;
+  display:none;
+  flex-wrap:wrap;
+  width:100%;
+  margin-bottom:220px;
+}
+#otherhe{
+width:97%;
+padding-left:3%;
+display:flex;
+flex-wrap:wrap;
+margin-bottom:20px;
+}
+#otherhe div{
+flex-basis:100%;
+display:flex;
+}
+#otherhe h3{
+  font-family: ubuntu;
+  letter-spacing:1px;
+  font-size:1.3rem;
+  margin-bottom:15px;
+  padding:13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color:#fff;
+  background-color: #171b17;
+}
+#otherhe input{
+  width: 50%;
+}
+#otherbot{
+  margin-left: 3%;
+  width:96%;
+}
+#otherbot h3{
+  color:#616161;
+  font-size: 1.3rem;
+    font-family: ubuntu;
+  letter-spacing:1px;
+}
+#otherbot button {
+  background-color:#3498db;
+  color:#fff;
+  border:none;
+  padding: 5px;
+  padding-left:10px;
+  padding-right:10px;
+  letter-spacing:1px;
+  font-size: 1rem;
+  cursor:pointer;
+  font-family:ubuntu;
+  font-weight:600;
+}
+#otherbot textarea{
+  border:none;
+  font-size: 1rem;
+  width:100%;
+}
+#otherbot button:hover{
+  background-color:#2980b9;
+}
+
+
+
+
+
 /***social,footer,contact***/
 #foot{
   position:relative;

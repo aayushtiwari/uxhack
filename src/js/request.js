@@ -41,8 +41,14 @@ $('#options div:nth-child(5)').on('click', function() {
 
 
 $('.second button').on('click', function() {
+     if(this.classList[0]=='other'){
+      $('.second').css('display','none');
+      $('#other').css('display', 'flex');
+     }
+     else{
     $('.second').css('display', 'none');
     $('#url').css('display', 'flex');
+  }
 });
 $('#url .back .backbut').on('click', function() {
     $('#url').css('display', 'none');
@@ -91,5 +97,25 @@ $('#urlbot #input button').on('click', function() {
 
 $('#email .back .backbut').on('click', function() {
   $('#email').css('display', 'none');
+  $('#url').css('display', 'flex');
+});
+
+//option
+$('#other .back .backbut').on('click', function() {
+  $('#other').css('display', 'none');
+    if (x == 1) {
+        $('#bemail').css('display', 'flex');
+    } else if (x == 2) {
+        $('#bpage').css('display', 'flex');
+    } else if (x == 3) {
+        $('#bweb').css('display', 'flex');
+    } else if (x == 4) {
+        $('#bmobile').css('display', 'flex');
+    } else if (x == 5) {
+        $('#bads').css('display', 'flex');
+    }
+});
+$('#otherbot button').on('click', function() {
+  $('#other').css('display', 'none');
   $('#url').css('display', 'flex');
 });
