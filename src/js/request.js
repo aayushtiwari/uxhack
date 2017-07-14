@@ -119,3 +119,9 @@ $('#otherbot button').on('click', function() {
   $('#other').css('display', 'none');
   $('#url').css('display', 'flex');
 });
+var y=0;
+$('#logo div img').on('click',function(){
+  $("#nav div:nth-child(1),#nav div:nth-child(2)").toggleClass("show")
+  $(this).css({'transform':`rotate(${y+90}deg)`});
+  y=y+90;
+});

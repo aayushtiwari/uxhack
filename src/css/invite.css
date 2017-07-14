@@ -152,10 +152,12 @@ color:#8e44ad;
 #intro{
   display:inline-flex;
   width:100%;
+  height:612px;
   position:relative;
-  top:30vh;
+  top:8vh;
   align-items:center;
   flex-wrap:wrap;
+  overflow-x:hidden;
 }
 #read{
   display:flex;
@@ -228,20 +230,21 @@ color:#8e44ad;
   flex-basis:30%;
 }
 #images .lap{
-  top:-20vh;
+  top:2vh;
   width:900px;
   position:absolute;
 }
 #images .screen{
   position: absolute;
   width:710px;
-  top:-16vh;
+  top:6vh;
   margin-left:100px;
 }
 
 #how{
+  overflow-x:hidden;
   position: relative;
-  top:70vh;
+  top:20vh;
   width:100%;
   background-color:#fff;
   padding-bottom: 50px;
@@ -464,7 +467,7 @@ padding-right: 17px;
 
 /***social,footer,contact***/
 #foot{
-  top:70vh;
+  top:20vh;
   position:relative;
   background: linear-gradient(to right,#5C258D,#4389A2);
 }
@@ -601,7 +604,7 @@ justify-content:space-around;
 }
 #copyright{
   position: relative;
-  width:100%;
+  width:97%;
   padding:8px;
   font-size: 1.1rem;
   padding-left:2%;
@@ -676,10 +679,10 @@ font-size: 1.1rem;
   }
   #images .lap{
     width:680px;
-    top:-7vh;
+    top:1vh;
   }
   #images .screen{
-    top:-4vh;
+    top:3vh;
     width:540px;
     margin-left:75px;
   }
@@ -718,7 +721,8 @@ font-size: 1.1rem;
     flex-basis:45%;
   }
   #intro{
-    top:20vh;
+    top:6vh;
+    height:998px;
   }
   #intro #readb{
   width:95%;
