@@ -5,20 +5,37 @@
   width:180px;
 }
 #sidebar ul{
+  display:flex;
+  justify-content:center;
   padding-left:0px;
   flex-basis:100%;
   list-style: none;
+  margin:0;
+  flex-wrap:wrap;
 }
 #sidebar h2{
-  text-align:center;
+  width: 100%;
+  padding:8px;
+  display:flex;
   font-family:lato;
   font-weight:600;
   font-size: 1.2rem;
   color:#616161;
   margin-bottom:2px;
+  justify-content:center;
+  align-items: center;
   letter-spacing:1px;
+  cursor:pointer;
+}
+#sidebar h2:hover{
+background-color:#616161;
+color:#fff;
+}
+.options{
+  display:none;
 }
 .options li{
+  flex-basis:100%;
   padding:5px;
   text-align:center;
   font-size: 1.1rem;
