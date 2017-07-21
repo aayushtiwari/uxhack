@@ -1,0 +1,32 @@
+#navopt ul{
+list-style: none;
+display:flex;
+padding-left: 0;
+flex-wrap:wrap;
+}
+#navopt li{
+  padding:8px;
+  display:flex;
+  flex-wrap:wrap;
+  cursor:pointer;
+}
+#navopt a{
+  width:100%;
+  padding:5px;
+  text-align:center;
+}
+#navopt span{
+  height:2px;
+  width:0%;
+background-color:red;
+transition:width 0.5s;
+}
+#navopt li:hover >span{
+  width:100%;
+}
+@media(max-width:450px){
+  #navopt li{
+    flex-basis:45%;
+  }
+}
+
