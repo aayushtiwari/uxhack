@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>chat</title>
+</head>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<style type="text/css">
+    #messagebox{
+        height:500px;
+        overflow-y:scroll;
+    }
+    #chat{
+        width:800px;
+        background-color:#ecf0f1;
+    }
+    .message{
+        display:flex;
+        width:100%;
+    }
+    .message div{
+        margin-left:8px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+        background-color:#3498db;
+        padding: 10px;
+        border-radius:5px;
+        color:#fff
+    }
+    .message div h3,.message p{
+        display:flex;
+    }
+    #input{
+        display:flex;
+    }
+    #input textarea{
+        padding:5px;
+        flex:7;
+        height:35px;
+        resize: none;
+    }
+    #input button{
+        flex:1;
+    }
+    #input button:nth-child(5){
+        border:none;
+        background-color:#3498db;
+        color:#fff;
+        padding:8px;
+    }
+    .message div h3{
+        margin-top: 3px;
+    }
+    .message div p{
+        margin-bottom: 0;
+    }
+</style>
+
+<body>
+    <div id="chat">
+        <div id="messagebox">
+            <div class="message">
+                <div>
+                    <h3>you</h3>
+                    <p>text message</p>
+                </div>
+            </div>
+            <div class="message">
+                <div>
+                    <h3>you</h3>
+                    <p>text message</p>
+                </div>
+            </div>
+            <div class="message">
+                <img class="img-responsive" src="https://d1xjdxwxw0wmjv.cloudfront.net/comments/2017-07-24_Case_study_Buzz.png" alt="Image Content">
+            </div>
+        </div>
+        <div id="input">
+            <textarea name="message" placeholder="Type your message here..."></textarea>
+            <button>
+                <i class="fa fa-file-image-o fa-lg" aria-hidden="true"></i>
+            </button>
+            <button>
+                <i class="fa fa-paperclip fa-lg" aria-hidden="true"></i>
+            </button>
+            <button>
+                <i class="fa fa-refresh fa-lg"></i>
+            </button>
+            <button class="send">
+                Send <i class="fa fa-send fa-lg"></i>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
