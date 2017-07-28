@@ -1,0 +1,84 @@
+div{
+    width:100%;
+    text-align:center;
+    padding:5px;
+}
+div p{
+    font-size: 1.6rem;
+}
+#login{
+    display:flex;
+    width:460px;
+    flex-wrap:wrap;
+    border:1px solid #474747;
+    justify-content:center;
+    font-family:Roboto;
+}
+#logh{
+    font-size: 2rem;
+    color:#7f8c8d;
+}
+#loginin input{
+    font-size: 1.5rem;
+}
+#loginin i{
+    color:#34495e;
+    padding-right:4px;
+}
+#forgot a{
+    padding-top: 0;
+    text-decoration: none;
+    cursor:pointer;
+}
+#signin{
+    display:flex;
+    justify-content: space-around;
+}
+#signin button{
+    padding:5px;
+    padding-left:13px;
+    padding-right:13px;
+    border:none;
+font-size: 1.7rem;
+color:#fff;
+background-color:#2ecc71;
+font-weight:600;
+}
+#signin button:hover{
+    background-color: #27ae60;
+}
+
+#in{
+    display:flex;
+    justify-content:center;
+}
+#in button{
+    border:none;
+    display:flex;
+    padding:10px;
+    color:#fff;
+    background-color:#3498db;
+    justify-content:space-around;
+    font-size: 1.8rem;
+    align-items:center;
+}
+#in img{
+    width: 23px;
+    margin-right: 10px;
+}
+#in button:hover{
+    background-color:#2980b9;
+}
+#free button{
+    padding:7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border:none;
+    color:#fff;
+    font-size: 1.7rem;
+    background-color:#1abc9c;
+    font-weight: 600;
+}
+#free button:hover{
+    background-color:#16a085;
+}
